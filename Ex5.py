@@ -1,6 +1,6 @@
 # Exercise 5: More Variables and Printing. 
 
-Name = 'NRE3975'
+name = 'NRE3975'
 age = 32 #Not a lie. 
 height = 70 # Inches. 
 heightcm = height * 2.54 
@@ -9,8 +9,6 @@ weightkg = weight * 0.4535
 eyes = 'blue'
 teeth = 'white'
 hair = 'brown'
-
-
 
 print(f"Let''s talk about {name}.")
 print(f"He''s {height} inches tall.")
@@ -22,4 +20,5 @@ print(f"His teeth are usually {teeth} depending on coffee")
 total = age + height + weight
 print(f"If I add {age}, {height} and {weight} I get {total}.")
 
+# Height and Weight conversion printed. 
 print(f"Weight in cm {heightcm}, weight in KG {round(weightkg)}")

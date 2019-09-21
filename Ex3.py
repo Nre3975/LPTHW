@@ -1,3 +1,7 @@
+# Exercise 3: Numbers and Math. 
+
+
+
 # Print statement.
 print('I will now count my chickens:')
 # Print string and calculation result. 
