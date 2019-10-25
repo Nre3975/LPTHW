@@ -16,7 +16,7 @@ y =  f"Those who know {binary} and those who {do_not}."
 print(x)
 print(y)
 
-# String and a variable String within it 
+# String and a variable String within it.
 print(f"I said {x}")
 print(f"I also said: '{y}'")
 
