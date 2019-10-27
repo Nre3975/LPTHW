@@ -2,6 +2,7 @@
 
 # Get data IN to program. 
 # Most Software: Takes input, Computational work on it, give output. 
+# Input: Get input from the user, with a prompt. 
 
 print("How old are you?", end= ' ')
 age = input() 
