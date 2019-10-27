@@ -2,10 +2,10 @@
 # Adding a prompt to the input request. 
 
 age = input("How old are you? ")
-height = input(f"Youre age is {age}? Thank you, how tall are you? ")
+height = input(f"Your age is {age}? Thank you, how tall are you? ")
 weight = input("How much do you weigh? ")
 
-print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+print(f"So, you're {age} years old, {height} tall and {weight} heavy.")
 
 # Input man page: python -m pydoc input: Read a string from standard input
 
@@ -16,4 +16,4 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 ## has better chance of being portable between different platforms. 
 
 # Sys: provides access to some variables used or maintained by the interpreter 
-## and to functions that interact strongly with the interpreter. It is always available.
+## and to functions that interact strongly with the interpreter. It is always available.10
