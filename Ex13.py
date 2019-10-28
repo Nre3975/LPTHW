@@ -6,7 +6,7 @@ from sys import argv
 # Unpack argv into 4 variables.
 #script, first, second, third = argv
 #Less: script, arg1, arg2
-scriptname, arg1, arg2, arg3, arg4 = argv
+scriptname, arg1, arg2, arg3, arg4 = argv # pylint: disable=unbalanced-tuple-unpacking 
 
 print("The script is called :", scriptname)
 print("The first variable is called:", arg1)
