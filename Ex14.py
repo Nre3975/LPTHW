@@ -3,10 +3,11 @@
 from sys import argv 
 
 #Unpack argv. 
-script, user_name = argv # pylint: disable=unbalanced-tuple-unpacking 
-prompt = '> '
+script, user_name, password = argv # pylint: disable=unbalanced-tuple-unpacking 
+prompt = '-- '
 
-print(f"Hi {user_name}, I'm the {script} script")
+
+print(f"Hi {user_name}, I'm the {script} script. Your password \'{password}\' has been accepted")
 print(f"I'd like to ask y ou a few questions.")
 print(f"Do you like me {user_name}?")
 likes = input(prompt)
