@@ -20,7 +20,4 @@ file_again = input("> " )
 # Open a new file, and print it out with read again. 
 txt_again = open(file_again)
 print(txt_again.read())
-txt_again.close() git 
-
-
-                    
+txt_again.close()
