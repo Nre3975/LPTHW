@@ -1,13 +1,8 @@
-# Attempt to get script to 1 line. 
-
 from sys import argv 
-script, from_file, to_file = argv # pylint: disable=unbalanced-tuple-unpacking 
+# With closing
+with open(argv[1], "r") as f2: 
+    with open(argv[2], "w") as f: f.write(f2.read())
 
-print(f"Copying data from {from_file} to {to_file}")
-
-# Copy code. 
-with open(from_file, "r") as f2:
-    with open(to_file, "w") as f: f.write(f2.read())
-
-print("Successful Copy.")
+# Without Closing. 
+open(argv[2], "w").write(open(argv[1], "r").read())
 
