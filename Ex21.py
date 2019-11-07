@@ -30,5 +30,12 @@ print("Here is a puzzle.")
 
 what = add(age, subtract(height, multiply (weight, divide( iq, 2))))
 print("That becomes: ", what, "Can you do it by hand?")
-
 print((35+(74-(180*(50/2)))))
+
+# My formula: 
+
+my_form = 400-(5*(5+(100/10)))
+print(my_form)
+
+var_formula =  subtract(400, multiply(5, add(5, divide(100, 10))))
+print(var_formula)
