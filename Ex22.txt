@@ -1,0 +1,63 @@
+Exercise 22: What do you know so far? 
+
+Basics: 
+print: Prints message to the output. 
+"" / '': Enter a string. 
+""" / ''': Multi line string. 
++-/*: Arithmetic operators. 
+== < >: Comparison operators. 
+f'': f strings, Strings containing variables. 
+.format() strings: Older method of f string.
+{} within string: Variable placeholder within in a string. 
+True/False: Binary variables. 
+end = : The way to end a string, Example \n for new line, ' ' for space. 
+input(OptionalArg): Take user input, OptionalArg being the message displayed to user. 
+int() convert contents to integer 
+Float() convert contents to float 
+str() convert contents to string
+
+Escape Sequences: 
+\\ = Backslash. 
+\' = Single Quote. 
+\" = Double Quote. 
+\a = ASCII bell (BEL)
+\b = ASCII backspace (BS)
+\f = ASCII Formfeed (FF)
+\n = ASCII linefeed (LF) 
+\N = Character Named Name in the Unicode database (Unicode Only)
+\r = Carriage Return (CR)
+\t = Horizontal Tab (TAB)
+\uxxxx = Character with 32-bit hex value xxxx
+\uxxxxxxxx = Character with 32-bit hex value xxxxxxxx
+\v = ASCII vertical tab (VT) 
+\ooo = Character with octal value 000 
+\xhh = Character with hex value hh. 
+
+System:
+from: State a python library to import from. 
+import: import a module from a library 
+argv: Arguments vector: contains arguments passed into program at runtime. 
+x, y, z = argv: Uppack arguments from argv
+# pylint: disable=unbalanced-tuple-unpacking: Comment to disable warning. 
+
+Files: 
+Open: Open the file, stores as a file object. 
+close: Close the file. 
+for open: Opens the file, and closes it when finished. 
+open(filename, 'w'): Open file in W mode, 'r' for read mode. 
+file.truncate():  Truncate file to desired size ( usuallyu 0) NB: Not really needed: using 'w' an existing file with the same name will be erased.
+file.read(): Read whole file. 
+file.readline(): Read line of file, looking for \n at the end. 
+file.write(): Write to the file. 
+decode('UTF-8'): Decode file into UTF-8 Standard, useful if opening in byte mode. 
+seek(0): sets the file's current position at the beginning
+f.seek(offset, 1): sets the file's current position to the offset relative to the current position
+
+Functions: 
+def: State a function declaration is coming. 
+FunctionName: State the function name.
+(*args): Allow any args into the function. 
+(x, y): Allow 2 args into function, and call them x, y within function. 
+: : (The colon is the keyword, denotes end of function header)
+Indentation: All function code must be indented. 
+return: Return something from the function. 
