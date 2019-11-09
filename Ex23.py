@@ -18,4 +18,12 @@ def print_line(line, encoding, errors):
     print(raw_bytes, "<===>", cooked_string)
 
 languages = open("languages.txt", encoding="utf-8")    
+
 main(languages, encoding, error)
+
+# UTF-8, UTF-16, BIG5 etc. are codecs for encoding characters. 
+
+print("\n\nProving Binary 1011010 is 90, and Ascii 90 = Z. ")
+print("Number 90 in Binary: 0b1011010 = ", 0b1011010)
+print("Confirm Ascii value for Z: ord('Z') = ", ord('Z'))
+print("Show the character as Ascii value 90: chr(90) = ", chr(90))
