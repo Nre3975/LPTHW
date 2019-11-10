@@ -1,5 +1,7 @@
 def break_words(stuff): 
-    """This function will break up words for is """ 
+    # Using """ Comment """ instead of # means it shows up 
+    # in a help command (Documentation comments)
+    """This function will break up words. """ 
     words = stuff.split(' ')
     return words
 
@@ -8,7 +10,7 @@ def sort_words(words):
     return sorted(words)
 
 def print_first_word(words): 
-    # prints first word after popping it off 
+    """ prints first word after popping it off """
     word = words.pop(0) 
     print(word)
 
@@ -24,11 +26,15 @@ def sort_sentence(sentence):
 
 def print_first_and_last(sentence): 
     # Print first and last words of then sentence 
+    # Take a sentence, break it into a list of words
+    # then print the first and last. 
     words = break_words(sentence)
     print_first_word(words)
     print_last_word(words)
 
 def print_first_and_last_sorted(sentence):  
+    # Take a sentance sort it (which breaks words up and returns 
+    # a sorted list), Then prints first and last words.
     words = sort_sentence(sentence) 
     print_first_word(words)
     print_last_word(words)
